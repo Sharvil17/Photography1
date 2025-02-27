@@ -1,2 +1,15 @@
-# Photography1
-This repository contains research and implementation details on how Artificial Intelligence (AI) transforms post-production in photography and animation. The project investigates AI-powered solutions such as image enhancement, background removal, and style transfer using cutting-edge machine learning algorithms and computer vision techniques.
+import pandas as pd
+
+# Load the dataset
+anime_df = pd.read_csv('Anime.csv')
+
+# Display basic information about the dataset
+info = anime_df.info()
+
+# Display the first few rows of the dataset
+head = anime_df.head()
+
+# Display summary statistics of the dataset
+describe = anime_df.describe()
+
+info, head, describe
